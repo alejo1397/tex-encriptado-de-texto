@@ -7,7 +7,7 @@
     Position: relative;
     width: 100vw;
     height: 100vh;
-    background: #f3f5fc;
+    background: #1A3636;
 }
 
 .texto {
@@ -22,12 +22,13 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    background-color: #f3f5f6;
+    background-color: #40534C;
 
 }
 
+
 .texto::placeholder {
-    color: #0a3871;    
+    color: #fafbfc;    
 }
 
 .texto:focus,
@@ -54,7 +55,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
-    color: #051314;
+    color: #677D6A;
     opacity: 0.8;
     flex: none;
     order: 1;
@@ -79,7 +80,7 @@
     padding: 2%;
     gap: 8px;
     width: 25%;
-    background-color: #0a3871;
+    background-color: #5a3030;
     border-radius: 24px;
     font-family: "inter";
     font-size: 18px;
@@ -97,15 +98,15 @@
     padding: 2%;
     gap: 8px;
     width: 25%;
-    background: #d8dfe8;
-    border: 1px solid #0a3871;
+    background: #5a3030;
+    border: 1px solid #161616;
     border-radius: 24px;
     font-family: "inter";
     font-weight: 400;
     font-size: 18px;
     line-height: 19px;
     text-align: center;
-    color: #0a3871;
+    color: #fff;
 }
 
 
@@ -124,7 +125,7 @@
     height: 90%;
     left: 60%;
     top: 5%;
-    background: #fff;
+    background: #5a3030;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;    
 }
@@ -142,8 +143,20 @@
     top: 65%;    
     text-align: center;
 }
+.div-titulo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    top: 2%;    
+    text-align: center;
+}
 
-.mensaje-encriptado h2 {
+.div-titulo h2 {
     width: 60%;
     font-family: "inter";
     font-style: normal;
@@ -151,7 +164,7 @@
     font-size: 24px;
     line-height: 120%;
     text-align: center;
-    color: #06090c;    
+    color: #ffffff;    
 }
 
 .mensaje-encriptado p {
@@ -182,7 +195,7 @@
     }
     .texto{
         width: 80%;
-        height: 60;
+        height: 50%;
         left: 10%;        
     }
     .terminos {
@@ -226,3 +239,9 @@
     }
 
 }
+
+
+
+
+
+
